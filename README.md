@@ -7,7 +7,7 @@ This project demonstrates a basic Assembly program structure and how to build an
 
 ## Features
 - Prints "Hello World!" to the console
-- Simple, beginner-friendly example for x86 Assembly
+- Simple, beginner-friendly example for x86_64 Assembly
 - Works on Linux and Windows (NASM assembler)
 
 ---
@@ -20,7 +20,7 @@ This project demonstrates a basic Assembly program structure and how to build an
 
 ---
 
-## Project Structure
+Project Structure
 assembly-hello/
 │
 ├── README.md # Project documentation
