@@ -1,0 +1,20 @@
+# Object files
+*.o
+*.obj
+
+# Executables
+*.out
+*.exe
+
+# Listing and map files
+*.lst
+*.map
+
+# Temporary files
+*.tmp
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
