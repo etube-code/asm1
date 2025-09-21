@@ -14,8 +14,8 @@ This project demonstrates a basic Assembly program structure and how to build an
 
 ## Requirements
 - **NASM assembler** (https://www.nasm.us/)
-- Linux or Windows environment
-- GCC (for linking on Linux)
+- Linux environment
+- LD (for linking on Linux)
 - Optional: Text editor or IDE supporting Assembly
 
 
@@ -23,7 +23,7 @@ This project demonstrates a basic Assembly program structure and how to build an
 ## Build & Run (Linux)
 
 # Assemble
-nasm -f elf32 main.asm -o main.o
+nasm -f elf34 main.asm -o main.o
 
 # Link
 ld main.o -o main
