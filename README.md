@@ -18,41 +18,18 @@ This project demonstrates a basic Assembly program structure and how to build an
 - GCC (for linking on Linux)
 - Optional: Text editor or IDE supporting Assembly
 
----
 
-Project Structure
-assembly-hello/
-│
-├── README.md # Project documentation
-├── LICENSE # MIT License
-├── .gitignore # Ignore compiled files
-├── src/
-│ └── main.asm # Assembly source code
-├── build/ # Compiled outputs
-└── docs/ # Optional documentation
-
-
----
 
 ## Build & Run (Linux)
 
 # Assemble
-nasm -f elf32 src/main.asm -o build/main.o
+nasm -f elf32 main.asm -o main.o
 
 # Link
-gcc -m32 build/main.o -o build/main
+ld main.o -o main
 
 # Run
-./build/main
-
-# Assemble
-nasm -f win32 src/main.asm -o build/main.obj
-
-# Link
-gcc build/main.obj -o build/main.exe
-
-# Run
-./build/main.exe
+./main
 
 ## License
 
